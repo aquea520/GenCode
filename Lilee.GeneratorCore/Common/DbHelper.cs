@@ -11,7 +11,7 @@ namespace Lilee.GeneratorCore
     [Serializable]
     public class config
     {
-        public static readonly string ConnectionString = "Server=.\\MSSQLSERVER12;Database=master;uid=sa;pwd=zyjs;";
+        public static readonly string ConnectionString = @"Server=.\SQLEXPRESS;Database=master;uid=sa;pwd=laopo520;";
         public static readonly string DbDatabase = "master";
     }
 
